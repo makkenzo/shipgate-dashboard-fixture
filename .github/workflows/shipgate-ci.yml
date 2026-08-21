@@ -5,10 +5,12 @@ on:
     branches:
       - main
       - develop
+      - stage5/v1/source
 
   pull_request:
     branches:
       - develop
+      - stage5/v1/source
 
 jobs:
   verify:
